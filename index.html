@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Útan Mærr</title>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script>
+  $(function() {
+  $(".toggle").on("click", function() {
+      if ($(".item").hasClass("active")) {
+          $(".item").removeClass("active");
+      } else {
+          $(".item").addClass("active");
+      }
+  });
+});
+  </script>
+</head>
+<body>
+                      <!-- NAVIGATION-->
+    <nav>
+      <ul class="nav_links">
+        <li class="logo"><a href="#">Útan Mærr</a></li>
+        <li class="item"><a href="#">About</a></li>
+        <li class="item"><a href="#">Gallery</a></li>
+        <li class="item"><a href="#">Contact</a></li>
+        <li class="toggle"><span class="bars"></span></li>
+      </ul>
+    </nav>
+                      <!-- ABOUT-->
+  <div class="abtParent">
+    <div class="about">About</div>
+  </div>
+                      <!-- BANNER-->
+    <div class="bannerImg">
+      <img  class="image" src="images/daniel-lincoln-NR705beN_CU-unsplash.jpg">
+    </div>
+    <br>
+    <br>
+  <h2 id="hi">
+      Halló!
+  </h2>
+  <div class="abtTxt">
+
+    <p class="p1">
+      I am Einar, and I'm a photographer based in Europe. I love to travel
+      around Iceland and Norway to capture beautiful landscapes and moments of nature.
+    </p>
+    <p class="p2">
+      My passion for photography started at the age of 15, when I bought my first DSLR camera
+      after working at a electronic retailer. Just like most people, I began photography without having an 
+      understanding of the camera, and happily used the "automatic" settings. For years I took pictures just for fun
+      but eventually I felt the urge to improve and understand how to properly use the camera. Now i spend most of my days exploring Europe
+      and capturing the best moments I possibly can.
+    </p>
+  </div>
+</body>
+</html>
