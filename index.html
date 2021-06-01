@@ -23,20 +23,21 @@
   });
 });
   </script>
+  <script src="main.js"></script>
 </head>
 <body>
                       <!-- NAVIGATION-->
-    <nav>
+    <nav id="navbar">
       <ul class="nav_links">
         <li class="logo"><a href="#">Útan Mærr</a></li>
-        <li class="item"><a href="#">About</a></li>
-        <li class="item"><a href="#">Gallery</a></li>
-        <li class="item"><a href="#">Contact</a></li>
+        <li class="item"><a href="#hallo">About</a></li>
+        <li class="item"><a href="#galleryDuh">Gallery</a></li>
+        <li class="item"><a href="#voet">Contact</a></li>
         <li class="toggle"><span class="bars"></span></li>
       </ul>
     </nav>
                       <!-- ABOUT-->
-  <div class="abtParent">
+  <div id="hallo" class="abtParent">
     <div class="about">About</div>
   </div>
                       <!-- BANNER-->
@@ -44,6 +45,9 @@
       <img  class="image" src="images/daniel-lincoln-NR705beN_CU-unsplash.jpg">
     </div>
     <br>
+  <span id="lineflex"><h5>ᛗ</h5>
+    <hr class="linestyle"><h5>ᛗ</h5>
+  </span>
     <br>
                       <!-- ABOUT TXT-->
   <h2 id="hi">
@@ -62,6 +66,12 @@
       and capturing the best moments I possibly can.
     </p>
   </div>
+  <div id="galleryDuh" class="galleryParent">
+    <div class="gal">Gallery</div>
+  </div>
+  <br>
+  <br>
+  <br>
                     <!-- GALLERY--> 
   <ul class="gallery">
     <li>
@@ -101,5 +111,21 @@
       <!--empty bc layout weird-->
     </li>
   </ul>
+  <br>
+  <span id="lineflex"><h5>ᛗ</h5>
+    <hr class="linestyle"><h5>ᛗ</h5>
+  </span>
+    <br>
+    <footer id="voet" class="footer">
+      <div id="contact">
+      <br>
+      <h2 id="lala">Contact Me</h2>
+      <br>
+      <p class="ftTxt">+27 81 020 3460</p>
+      <p class="ftTxt">contactme@EinarViking.com</p>
+      <p class="ftTxt">635, Crown St, North West, StilFontein</p>
+      <p class="ftTxt">Pictures were collected from <a  id="credit" href="https://unsplash.com/">unsplash.com</a></p>
+    </div>
+    </footer>
 </body>
 </html>
