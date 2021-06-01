@@ -306,6 +306,7 @@ ul.gallery {
   position: fixed;
   top: 5.6rem;
   max-height: 65%;
+  max-width: 80%;
   left: 50%;
   transform: translate(-50%, 0) scale(0, 0);
   z-index: 10;
@@ -313,6 +314,11 @@ ul.gallery {
   transition: all 0.3s ease;
 }
 
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  .img-overlay {
+    max-width: 50%;
+  }
+}
 .overlay-dark {
   top: 0;
   position: fixed;
