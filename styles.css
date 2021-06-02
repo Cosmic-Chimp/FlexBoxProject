@@ -286,27 +286,13 @@ ul.gallery {
   transition-delay: 0.2s;
   cursor: pointer;
 }
-/*
+
 @media (min-width: 481px) and (max-width: 767px) {
   .gallery {
     flex-direction: row;
   }
-
-  .gallery li {
-    height: auto;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .gallery img {
-    width: 60%;
-    max-height: 75vh;
-    min-width: 0;
-    align-self: center;
-  }
 }
-*/
+
 /*          New zoom in feature */
 
 #myImg {
