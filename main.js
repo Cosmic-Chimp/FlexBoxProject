@@ -26,7 +26,7 @@ span.onclick = function() {
 }
 
 
-
+//uhm github?
 //     OLD zoom in feature    //
 /*
 $(".img-popup").on('click', function() {
