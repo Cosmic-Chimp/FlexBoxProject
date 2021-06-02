@@ -286,7 +286,7 @@ ul.gallery {
   transition-delay: 0.2s;
   cursor: pointer;
 }
-
+/*
 @media (min-width: 481px) and (max-width: 767px) {
   .gallery {
     flex-direction: row;
@@ -306,7 +306,7 @@ ul.gallery {
     align-self: center;
   }
 }
-
+*/
 /*          New zoom in feature */
 
 #myImg {
