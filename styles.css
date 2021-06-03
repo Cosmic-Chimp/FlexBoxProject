@@ -233,6 +233,7 @@ h5 {
   text-shadow: 0.5px 0.5px 2px #14ffec;
 }
 
+/* Line between content */
 #lineflex {
   display: flex;
   justify-content: center;
@@ -248,6 +249,7 @@ h5 {
     width: 80%;
   }
 }
+
 /* Gallery styling */
 .gal {
   padding-top: 1.25rem;
